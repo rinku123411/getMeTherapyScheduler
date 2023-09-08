@@ -1,0 +1,11 @@
+.header {
+    background-color: #ffde59;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-weight: bold;
+    font-size: calc(5px + 2vmin);
+    color: #b1605a;
+  }

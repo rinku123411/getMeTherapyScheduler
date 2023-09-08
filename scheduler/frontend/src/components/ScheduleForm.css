@@ -1,0 +1,56 @@
+.schedule-form__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .schedule-form__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .schedule-form__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  .select-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 21rem; 
+    font-weight: bold;
+    display: block;
+    
+  }
+  .select-box{
+    margin-top: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font: inherit;
+    font-weight: normal;
+    appearance: none;
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 19px;
+  }
+  
+  .schedule-form__actions {
+    text-align: right;
+  }
+
+  .error-msg{
+    color: red;
+
+  }

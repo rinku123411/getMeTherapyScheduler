@@ -1,0 +1,8 @@
+.not-list {
+    list-style: none;
+    padding: 0;
+  }
+  .not__fallback {
+    color: white;
+    text-align: center;
+  }

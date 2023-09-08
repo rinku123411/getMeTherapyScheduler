@@ -1,0 +1,26 @@
+.not-date {
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 1px solid #ececec;
+    background-color: #b2745a;
+    color: white;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .not__month {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
+  .not__year {
+    font-size: 0.75rem;
+  }
+  
+  .not__day {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
